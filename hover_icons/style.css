@@ -49,7 +49,7 @@
 }
 
 .icons a:hover {
-  background-position: 0% 100%;
   color: white;
+  background-position: 0% 100%;
   transition: background-position 0.5s, color 0.5s;
 }
