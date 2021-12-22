@@ -6,7 +6,7 @@
 }
 
 .header {
-  background-image: url(img/home-preview-bg.jpg);
+  background-image: url(home-preview-bg.jpg);
   width: 100vw;
   height: 700px;
   min-height: 30vh;
