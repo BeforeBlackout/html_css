@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.drop-down {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background-color:rgb(0, 145, 255);
+  width: 80px;
+  height: 40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.drop-btn {
+  border: none;
+  color: white;
+  background: transparent;
+  margin-top: 12px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.drop-items {
+  display: none;
+  background-color:rgb(106, 174, 226);
+  position: relative;
+  top: 10px;
+  width: 80px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.drop-items a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  width: 80px;
+}
+
+.drop-items a:nth-child(3) {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.drop-items a:hover{
+  background-color: rgb(0, 145, 255);
+}
+
+.drop-down:hover .drop-items{
+  display: block;
+}
+
+.drop-down:hover {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .drop-down {
+  display: inline-block;
+  background-color: green;
+  height: 80px;
+  width: 120px;
+  position: relative;
+  left: 50%;
+  top: 200px;
+  padding: 15px 5px;
+  border-radius: 8px;
+}
+
+.drop-btn {
+  color: white;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  left: 25%;
+  top: 25%;
+}
+
+.drop-items {
+  background-color: green;
+  display: none;
+  position: relative;
+  top: 47px;
+  left: 0px;
+  width: 110px;
+  border-radius: 5px;
+}
+
+.drop-items a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+}
+.drop-down:hover .drop-items {
+  display: inline-block;
+  transition: all 0.6s ease;
+}
+
+.drop-down:hover {
+  background-color: rgb(2, 99, 29);
+}
+
+.drop-items a:hover{
+  background-color: rgb(2, 99, 29);
+} */
