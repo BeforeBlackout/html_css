@@ -68,25 +68,11 @@
         <img class="photo" src="img/5.jpg">
         <img class="photo" src="img/6.jpg">
         <img class="photo" src="img/7.jpg">
-        <img class="photo" src="img/8.jpg">
+        <img class="photo" src="img/8.jpg" id="remove">
         <img class="photo" src="img/9.jpg">
+        <button class="find_more" id="photo_button"><a href="#contacts_pointer">Find more<i class="arrow right"></i></a></button>
       </div>
-      <script>
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("photo");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 4000); // Change image every 2 seconds
-        }
-        </script>
+      
     </div>
 
     <div class="about" id="about_pointer">
@@ -94,7 +80,7 @@
         <p>▬▬▬▬▬ <span class="black">ABOUT</span> ▬▬▬▬▬</p>
       </div>
       <div class="about_image">
-        <img src="img/about.png" class="img_about">
+        <img src="img/img_rewards.webp" class="img_about">
       </div>
       <div class="about_main">
         <ul><span class="red">Найтитулованіший клуб України</span>
@@ -144,54 +130,22 @@
         <img class="post" src="img/post_3.png">
         <img class="post" src="img/post_4.png">
       </div>
-      
-      <script>
-        var myIndex_2 = 0;
-        slide();
-        
-        function slide() {
-          var y;
-          var v = document.getElementsByClassName("post");
-          for (y = 0; y < v.length; y++) {
-            v[y].style.display = "none";  
-          }
-          myIndex_2++;
-          if (myIndex_2 > v.length) {myIndex_2 = 1}    
-          v[myIndex_2-1].style.display = "block";  
-          setTimeout(slide, 4000); // Change image every 2 seconds
-        }
-        </script>
+      <button class="find_more" id="news_button"><a href="#contacts_pointer">Find more<i class="arrow right"></i></a></button>
     </div>
 
     <div class="stuff" id="stuff_pointer">
       <div class="stuff_pointer">
         <p>▬▬▬▬▬ <span class="black">STUFF</span> ▬▬▬▬▬</p>
       </div>
-      <div class="container">
       <div class="trainers" id="train">
-        <p>Tренери</p>
-        <div class="card">
+        <p>Тренери</p>
+          <!-- <img class="trener" src="img/mt.png"> -->
           <img class="trener" src="img/t1.png">
           <img class="trener" src="img/t2.png">
           <img class="trener" src="img/t3.png">
           <img class="trener" src="img/t4.png">
-        </div>
-        <script>
-          var myIndex_3 = 0;
-          trainers_slide();
-          
-          function trainers_slide() {
-            var a;
-            var b = document.getElementsByClassName("trener");
-            for (a = 0; a < b.length; a++) {
-              b[a].style.display = "none";  
-            }
-            myIndex_3++;
-            if (myIndex_3 > b.length) {myIndex_3 = 1}    
-            b[myIndex_3-1].style.display = "inline-block";  
-            setTimeout(trainers_slide, 4000); // Change image every 2 seconds
-          }
-          </script>
+          <img class="trener" src="img/t5.png">
+          <img class="trener" src="img/t6.png">
       </div>
       <div class="winners" id="win">
         <p>Призери</p>
@@ -201,26 +155,12 @@
           <img class="win" src="img/p3.png">
           <img class="win" src="img/p4.png">
           <img class="win" src="img/p5.png">
+          <img class="win" src="img/p6.png">
+          <img class="win" src="img/p7.png">
+          <img class="win" src="img/p8.png">
         </div>
-        <script>
-          var myIndex_4 = 0;
-          win_slide();
-          
-          function win_slide() {
-            var e;
-            var r = document.getElementsByClassName("win");
-            for (e = 0; e < r.length; e++) {
-              r[e].style.display = "none";  
-            }
-            myIndex_4++;
-            if (myIndex_4 > r.length) {myIndex_4 = 1}    
-            r[myIndex_4-1].style.display = "inline-block";  
-            setTimeout(win_slide, 4000); // Change image every 2 seconds
-          }
-          </script>
+       </div>
       </div>
-    </div>
-    </div>
 
     <div class="halls" id="halls_pointer">
       <div class="halls_pointer">
