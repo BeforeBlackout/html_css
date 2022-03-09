@@ -138,7 +138,7 @@ main {
   width: 420px;
   height: 400px;
   position: relative;
-  bottom: 80px;
+  bottom: 40px;
   left: 300px;
   text-align: center;
 }
@@ -153,8 +153,8 @@ main {
 }
 
 .nabir_img {
-  width: 800px;
-  height: 600px;
+  width: 630px;
+  height: 500px;
 }
 
 .info h1 {
