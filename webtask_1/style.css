@@ -201,13 +201,13 @@ main {
   -webkit-transform: rotate(-45deg);
 }
 
-.galery{
+.gallery{
   margin-top: 100px;
   height: 800px;
   text-align: center;
 }
 
-.galery_pointer {
+.gallery_pointer {
   margin-top: 20px;
   margin-bottom: 30px;
   text-align: center;
