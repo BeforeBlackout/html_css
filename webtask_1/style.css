@@ -383,6 +383,25 @@ main {
 
 .item {
   margin: 20px 40px;
+  height: 550px;
+  width: 420px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.low-weight {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(83, 83, 83);
+  text-align: center;
+}
+
+.addr {
+  margin: 10px;
+  height: 90px;
+  width: 380px;
+  margin-left: 20px;
 }
 
 .contacts {
