@@ -677,11 +677,10 @@ main {
 }
 
 .date {
-  width: 170px;
+  width: 200px;
   border: 1px solid black;
   position: relative;
-  left: 224px;
-
+  left: 190px;
 }
 
 .ava {
