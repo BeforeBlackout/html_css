@@ -1,5 +1,6 @@
 let adminForm = document.querySelector('.js-admin-form'),
     adminFormInputs = document.querySelectorAll('.js-admin-input')
+let n = 0
 
 
 adminForm.onsubmit = function () {
@@ -12,6 +13,7 @@ adminForm.onsubmit = function () {
     } else {
       input.classList.remove('error')
       console.log('correct')
+      localStorage.setItem(`${increment()}`, input.value)
     }
   })
 
@@ -23,6 +25,10 @@ adminForm.onsubmit = function () {
     showSuccessMessage();
     adminForm.reset();
   }
+}
+function increment() {
+    n++;
+    return n;
 }
 
 function showSuccessMessage() {
