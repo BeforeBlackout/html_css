@@ -14,11 +14,13 @@ body {
   height: 100%;
   width: 260px;
   background-color: #0A2558;
+  border-top-right-radius: 20px;
 }
 
 .sidebar .logo-details {
   height: 52px;
   width: 100%;
+  padding-left: 40px;
   display: flex;
   align-items: center;
   border: 2px solid rgb(255, 255, 255);
@@ -56,10 +58,12 @@ body {
   text-decoration: none;
   color: #fff;
   transition: all 0.1s ease;
+  border-bottom: 2px solid white;
 }
 
 .sidebar .nav-links li a:hover{
-  background-color: #081d45; 
+  background-color: #081d45;
+  transform: translateY(4%);
 }
 
 .sidebar .nav-links li a i{
